@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#315b4b"><meta name="description" content="Fichas de biotipología tradicional, síntomas y alimentación Unani. Datos cifrados en el dispositivo.">
+  <title>Mizaj · Evaluación biotipológica</title>
+  <link rel="manifest" href="./manifest.webmanifest"><link rel="icon" href="./icon.svg" type="image/svg+xml"><link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header class="top"><div class="brand"><div class="brand-mark">G</div><div><strong>MIZAJ</strong><small>GHEOS · Biotipologías</small></div></div><div class="top-right"><span id="vault-badge" class="tag">Archivo local cifrado</span><button type="button" id="lock" class="text-button hidden">Bloquear</button></div></header>
+<main>
+<section id="unlock-view" class="center-stage">
+ <div class="hero-card"><div class="eyebrow">ACCESO PROFESIONAL</div><h1>Evaluación biotipológica</h1><p>Casos, fotografías y respuestas guardados <strong>cifrados en este dispositivo</strong>. No se envían a servidores.</p><div id="vault-mode-label" class="pill">Comprobando archivo…</div>
+ <form id="vault-form" class="stack"><label for="vault-pass">Contraseña del archivo local</label><input id="vault-pass" type="password" autocomplete="current-password" minlength="10" required placeholder="Mínimo 10 caracteres"><button type="submit" class="primary">Acceder al archivo</button></form>
+ <p id="vault-error" class="error" role="alert"></p><p class="fine">Conserva esta contraseña: <strong>no existe recuperación automática</strong>. Los datos se guardan solo en este navegador/dispositivo. Borrar los datos del navegador eliminará las fichas si no exportas una copia de seguridad cifrada.</p></div>
+</section>
+<section id="app-view" class="hidden">
+ <div class="layout"><aside class="side"><div class="sidebar-title">Evaluación</div><nav id="nav" aria-label="Secciones"><button data-screen="cases">▦ &nbsp; Casos</button><button data-screen="identity">01 &nbsp; Identificación</button><button data-screen="photos">02 &nbsp; Fotografías</button><button data-screen="morph">03 &nbsp; Morfología</button><button data-screen="symptoms">04 &nbsp; Síntomas</button><button data-screen="duarte">05 &nbsp; Listas azul/amarilla</button><button data-screen="report">06 &nbsp; Orientación e informe</button></nav><div class="side-foot">Basado en la presentación «Biotipologías en Clave Moderna», págs. 39–84.<br><br>Clasificación tradicional orientativa; no diagnóstica.</div></aside>
+ <div class="workspace"><div class="workspace-head"><div><div class="eyebrow" id="current-subtitle">FICHA LOCAL</div><h1 id="screen-title">Casos</h1></div><div class="head-actions"><span id="active-case-label" class="subtle"></span><button type="button" id="save-case" class="primary small">Guardar caso</button></div></div><div id="notice" class="notice hidden" role="status"></div><div id="screen-content"></div></div></div>
+ </section>
+</main>
+<div id="modal-root" class="hidden" role="presentation"></div>
+<footer class="footer">Mizaj PWA · Evaluación educativa según medicina tradicional Unani · La información de salud requiere criterio clínico independiente.</footer>
+<script src="./app.js" defer></script>
+</body></html>

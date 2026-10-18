@@ -1,0 +1,39 @@
+MIZAJ GHEOS · PWA v0.4 · PROTOTIPO EDUCATIVO
+
+INSTALACIÓN
+1. Descomprime el ZIP y publica los archivos del directorio juntos en un servidor HTTPS con acceso restringido. No requiere backend.
+2. Abre index.html desde el teléfono o un ordenador moderno usando la dirección HTTPS. En navegadores compatibles, selecciona «Añadir a pantalla de inicio» o «Instalar aplicación».
+3. Crea una contraseña de al menos diez caracteres. No hay recuperación de contraseña.
+4. Crea un caso, rellena los datos y autoriza la captura de fotografías antes de usar la cámara.
+5. Guarda frecuentemente una copia cifrada en «Casos > Exportar copia cifrada». Si se pierden los datos del navegador sin copia, los registros son irrecuperables.
+
+FUNCIONES
+- Identificación por nombre, apellidos, edad, género, teléfono y correo.
+- Cámara frontal, cámara posterior y selección de fotos desde galería (la elección depende del navegador y dispositivo).
+- Registro guiado de rasgos faciales, corporales y manuales; coincidencias con los cuatro biotipos y confirmación profesional.
+- Registro independiente de signos de calor, frío, humedad y sequedad.
+- Cuestionario AZUL y cuestionario AMARILLO del material docente; regla 4+ por lista y resultado VERDE si ambas alcanzan el umbral.
+- Listados orientativos de alimentos según cualidades tradicionales y hábitos generales, con explicación.
+- Informe imprimible/guardar PDF en el navegador y exportación TXT.
+- Al solicitar enviar por correo, primero se exige confirmar que la persona autorizó el envío. Después se abre un BORRADOR de correo; no se adjunta automáticamente el PDF ni se envía automáticamente.
+- Todos los casos, fotografías, respuestas y confirmaciones se cifran en el navegador mediante AES-GCM, con clave derivada por PBKDF2. No existe sincronización ni almacenamiento remoto en esta versión.
+
+FUENTE PRINCIPAL
+Presentación facilitada por el usuario: «Biotipologías en Clave Moderna», Jesús Domínguez Iglesias, 161 diapositivas:
+- 39–56: cuatro biotipos y rasgos descritos.
+- 57–77: signos energéticos, interpretación tradicional y matriz alimentaria.
+- 79–84: reglas y listas AZUL/AMARILLA/VERDE atribuidas a David Duarte.
+Las 8 preguntas morfológicas y la ponderación de puntuaciones son una adaptación didáctica para este prototipo, NO una escala validada de Rodrigo García Platas ni de medicina Unani.
+La presentación indica que parte de su contenido fue generado con asistencia de IA; algunas correspondencias y clasificaciones no están corroboradas con tratados originales.
+
+LIMITACIONES IMPORTANTES
+- La aplicación NO analiza fotografías con inteligencia artificial. Las fotografías se capturan y sirven de apoyo a la observación; el profesional responde el cuestionario y confirma el biotipo. No se infieren salud, personalidad ni atributos personales a partir de una foto.
+- Los nombres SANGUÍNEO, FLEMÁTICO, MELANCÓLICO y COLÉRICO corresponden a tipologías tradicionales, no a diagnósticos.
+- La selección alimentaria no es una dieta clínicamente prescrita ni calculada por nutrientes; algunas clasificaciones de alimentos varían según la fuente.
+- La regla de Duarte y sus hipótesis de conductividad corporal y pH carecen de validación diagnóstica moderna. Las medidas de suero salado, bicarbonato, supresión de agua simple y restricciones drásticas no se implementan como indicaciones.
+- No es una herramienta sanitaria validada. No usar para diagnosticar, ni para modificar fármacos o dietas médicas.
+- El almacenamiento local cifrado NO garantiza por sí solo el cumplimiento de RGPD. Antes de utilizar datos de pacientes reales es necesario definir base jurídica, información y consentimiento, política de conservación, medidas técnicas y organizativas, copias de seguridad, control de acceso y gestión de los derechos de las personas.
+- Las fotografías médicas y síntomas son datos especialmente sensibles. Hospedar la PWA en infraestructura confiable y no compartir la contraseña.
+
+TECNOLOGÍA
+HTML, CSS, JavaScript, IndexedDB y Web Crypto. Requiere HTTPS (o localhost), almacenamiento habilitado y un navegador actual. El servicio sin conexión depende de que el service worker haya logrado instalarse tras la primera carga.
