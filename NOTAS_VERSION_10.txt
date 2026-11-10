@@ -1,0 +1,1 @@
+v0.10 — Añadidas las cantidades de la fórmula de suero facilitadas por el usuario como referencia documental, no indicación automática. «250 cl» son 2,5 L y se requiere confirmación de la unidad. Mantiene navegación e informe de v0.9.

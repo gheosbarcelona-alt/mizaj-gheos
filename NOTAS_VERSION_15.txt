@@ -1,0 +1,5 @@
+v0.15
+- Añadida pregunta de foco principal para orientar suplementación.
+- Añadido nuevo apartado de orientación de suplementación antes de hábitos en el informe.
+- Reordenado el informe visual para mostrar primero la lámina general de los cuatro biotipos y después el biotipo de la persona.
+- Ajustes visuales para un informe más atractivo y profesional.

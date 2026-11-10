@@ -1,0 +1,9 @@
+v0.17 - Morfología fotográfica con contraste profesional
+
+Referencias docentes: Presentación final del curso Biotipologías en Clave Moderna, noviembre 2026, láminas 44, 48, 52, 56 y 120-128.
+- Mejora de la revisión fotográfica para rostro, tronco-extremidades, silueta, manos y relieves óseos.
+- La medición automática de proporciones no clasifica al paciente. Es una estimación dependiente del fondo y la postura.
+- El terapeuta revisa cada rasgo, obtiene un resumen de coincidencias e incorpora explícitamente las observaciones al test.
+- Se conserva la distinción entre biotipo constitucional y actitud dominante.
+- El informe indica si hubo revisión de fotografías.
+- No hay envío de fotografías a servidores ni reconocimiento biométrico.

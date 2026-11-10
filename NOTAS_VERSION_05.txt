@@ -1,0 +1,11 @@
+BIOTIPOLOGÍAS GHEOS v0.5 — VERSIÓN DE PRUEBA
+
+Actualizaciones: marca Gheos, nombres dobles, Muriátrico por confirmación profesional, campo color de ojos, navegación anterior, gráfico de puntuaciones, siluetas esquemáticas y resumen visual imprimible.
+
+IMPORTANTE: las síntesis de intereses vitales y asociaciones de salud son borradores de trabajo, NO transcripciones verificadas de Rodrigo García Platas. Revisar con los apuntes docentes y la entrevista antes de publicarlas como material definitivo.
+
+El criterio 'posible Muriátrico' se usa solo como aviso provisional de puntuaciones equilibradas: no asignación automática. No existe una escala independiente de cinco biotipos validada.
+
+Se ha conservado el identificador de la base IndexedDB 'mizaj-gheos-v04' para mantener la compatibilidad con casos previos. Antes de sustituir la versión pública, exportar la copia cifrada e instalar y comprobar sobre un entorno de prueba en el MISMO origen. No subir datos reales a un repositorio.
+
+El informe PDF usa la función Imprimir/Guardar como PDF del navegador. La PWA no envía informes ni fotografías a servidores.

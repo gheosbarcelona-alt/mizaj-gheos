@@ -1,0 +1,2 @@
+v0.9
+Se restaura la función chips(), necesaria para generar la sección alimentaria: su ausencia impedía acceder al informe. Se hace tolerante la generación cuando falta el biotipo. Se añade el documento del suero proporcionado, con ingredientes identificados y sin dosis inventadas. Servicio offline actualizado.

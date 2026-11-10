@@ -1,0 +1,5 @@
+v0.12
+- Informe visual actualizado con lámina tipo atlas y dibujo recortado del biotipo seleccionado.
+- Eliminadas frases solicitadas del apartado de hábitos.
+- Actualizado texto del suero a 250 ml y zumo filtrado de medio limón.
+- Eliminado el aviso sobre clasificaciones discutidas de alimentos.

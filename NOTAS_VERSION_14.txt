@@ -1,0 +1,5 @@
+v0.14
+- Eliminada la duplicidad del bloque "Constitución y actitud dominante" en el informe en pantalla.
+- Eliminadas las frases sobre "Documento de referencia del curso".
+- Actualizada la frase sobre asociaciones biotipológicas.
+- Actualizado RESULTADO VERDE y sección de referencias.

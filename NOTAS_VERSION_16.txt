@@ -1,0 +1,6 @@
+Biotipologías Gheos v0.16 — corrección de arranque
+- Restauradas las funciones renderReport y reportText que faltaban en v0.15.
+- Conservados el cuestionario de suplementación y su apartado antes de hábitos.
+- Conservado el orden del informe: atlas general, figura individual, resultados.
+- Actualizada la caché PWA para evitar servir la versión defectuosa.
+- Verificación: arranque y navegación con navegador automatizado.

@@ -1,0 +1,8 @@
+BIOTIPOLOGÍAS GHEOS v0.7
+
+- Listas azul y amarilla reemplazadas enteramente por los elementos de las páginas 5 y 6 del PDF proporcionado (19 y 14 elementos respectivamente).
+- Interfaz: «Guardar copia de seguridad» sustituye a «Exportar copia JSON»; «Restaurar una copia» sustituye a «Importar copia JSON o cifrada». Se elimina el botón de recuperar casos anteriores.
+- La copia sigue siendo un fichero JSON no cifrado; se mantiene la posibilidad de restaurarla para evitar pérdida de datos.
+- El umbral de 4 respuestas se conserva de la lógica previa; el PDF nuevo no lo establece.
+- Se filtran valores de listas antiguas para que no aparezcan en el recuento actual.
+- Los datos almacenados localmente no están cifrados.

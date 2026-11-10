@@ -1,0 +1,6 @@
+v0.8
+- Añadida motivación personal al cuestionario y al informe.
+- Actualizados intereses vitales y patologías asociadas según instrucciones del usuario.
+- Informe visual con lámina de biotipos masculina/femenina y logotipo superior.
+- Recomendaciones automáticas para azul/amarillo/verde.
+- La receta exacta del suero queda pendiente de introducir desde los apuntes del curso.

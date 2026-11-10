@@ -1,39 +1,34 @@
-MIZAJ GHEOS · PWA v0.4 · PROTOTIPO EDUCATIVO
+BIOTIPOLOGÍAS GHEOS · PWA v0.17
 
-INSTALACIÓN
-1. Descomprime el ZIP y publica los archivos del directorio juntos en un servidor HTTPS con acceso restringido. No requiere backend.
-2. Abre index.html desde el teléfono o un ordenador moderno usando la dirección HTTPS. En navegadores compatibles, selecciona «Añadir a pantalla de inicio» o «Instalar aplicación».
-3. Crea una contraseña de al menos diez caracteres. No hay recuperación de contraseña.
-4. Crea un caso, rellena los datos y autoriza la captura de fotografías antes de usar la cámara.
-5. Guarda frecuentemente una copia cifrada en «Casos > Exportar copia cifrada». Si se pierden los datos del navegador sin copia, los registros son irrecuperables.
+INSTALACIÓN Y PRUEBAS
+1. Descomprime el archivo ZIP completo. No abras el HTML dentro del ZIP.
+2. Para probarla, abre index.html con Chrome o Edge. Las funciones de instalación y caché de la PWA requieren un servidor HTTPS o localhost.
+3. Crea un caso de prueba desde «Casos»; no hay contraseña de aplicación.
+4. En «Fotografías», marca la casilla de autorización y añade fotos de rostro frontal, cuerpo entero y manos, si están disponibles.
+5. Usa «Medir proporciones de la foto» si existe una foto de cuerpo entero con fondo uniforme. La medición no asigna automáticamente el biotipo.
+6. En «Revisión morfológica de las fotografías» examina cada rasgo y selecciona la opción que corresponda. Las opciones para fotos no aportadas permanecen deshabilitadas.
+7. Pulsa «Incorporar rasgos al cuestionario» y entra en «Morfología» para corregir o confirmar las respuestas; también puedes confirmar manualmente el biotipo.
+8. Consulta «Orientación e informe» e imprime o guarda el PDF desde el navegador.
 
-FUNCIONES
-- Identificación por nombre, apellidos, edad, género, teléfono y correo.
-- Cámara frontal, cámara posterior y selección de fotos desde galería (la elección depende del navegador y dispositivo).
-- Registro guiado de rasgos faciales, corporales y manuales; coincidencias con los cuatro biotipos y confirmación profesional.
-- Registro independiente de signos de calor, frío, humedad y sequedad.
-- Cuestionario AZUL y cuestionario AMARILLO del material docente; regla 4+ por lista y resultado VERDE si ambas alcanzan el umbral.
-- Listados orientativos de alimentos según cualidades tradicionales y hábitos generales, con explicación.
-- Informe imprimible/guardar PDF en el navegador y exportación TXT.
-- Al solicitar enviar por correo, primero se exige confirmar que la persona autorizó el envío. Después se abre un BORRADOR de correo; no se adjunta automáticamente el PDF ni se envía automáticamente.
-- Todos los casos, fotografías, respuestas y confirmaciones se cifran en el navegador mediante AES-GCM, con clave derivada por PBKDF2. No existe sincronización ni almacenamiento remoto en esta versión.
+NOVEDADES RESPECTO A v0.16
+- Ficha fotográfica por cinco criterios: rostro, tronco/extremidades, hombros-cintura-caderas, manos y relieves óseos.
+- Orientaciones morfológicas a partir del material del curso «Biotipologías en Clave Moderna».
+- Miniaturas de cada foto junto a los criterios observables.
+- Resumen de coincidencias provisionales por biotipo y botón independiente para incorporar solo observaciones revisadas por el terapeuta.
+- Resumen de las observaciones incorporadas en el apartado de Morfología y en el informe final.
+- Se mantienen los cuestionarios, las cinco tipologías, el informe visual y la suplementación orientativa.
 
-FUENTE PRINCIPAL
-Presentación facilitada por el usuario: «Biotipologías en Clave Moderna», Jesús Domínguez Iglesias, 161 diapositivas:
-- 39–56: cuatro biotipos y rasgos descritos.
-- 57–77: signos energéticos, interpretación tradicional y matriz alimentaria.
-- 79–84: reglas y listas AZUL/AMARILLA/VERDE atribuidas a David Duarte.
-Las 8 preguntas morfológicas y la ponderación de puntuaciones son una adaptación didáctica para este prototipo, NO una escala validada de Rodrigo García Platas ni de medicina Unani.
-La presentación indica que parte de su contenido fue generado con asistencia de IA; algunas correspondencias y clasificaciones no están corroboradas con tratados originales.
+ALCANCE DEL ANÁLISIS
+- El análisis automático existente estima únicamente proporciones aparentes de una figura en una imagen de cuerpo entero, sobre fondo uniforme. Puede confundir brazos, ropa y sombras con el contorno.
+- El análisis de rostro, manos y relieves óseos es guiado, NO reconocimiento automático por inteligencia artificial.
+- La decisión de incorporar las observaciones y la confirmación del biotipo corresponden al terapeuta.
+- No se infieren personalidad, enfermedades o diagnóstico a partir de las fotografías.
 
-LIMITACIONES IMPORTANTES
-- La aplicación NO analiza fotografías con inteligencia artificial. Las fotografías se capturan y sirven de apoyo a la observación; el profesional responde el cuestionario y confirma el biotipo. No se infieren salud, personalidad ni atributos personales a partir de una foto.
-- Los nombres SANGUÍNEO, FLEMÁTICO, MELANCÓLICO y COLÉRICO corresponden a tipologías tradicionales, no a diagnósticos.
-- La selección alimentaria no es una dieta clínicamente prescrita ni calculada por nutrientes; algunas clasificaciones de alimentos varían según la fuente.
-- La regla de Duarte y sus hipótesis de conductividad corporal y pH carecen de validación diagnóstica moderna. Las medidas de suero salado, bicarbonato, supresión de agua simple y restricciones drásticas no se implementan como indicaciones.
-- No es una herramienta sanitaria validada. No usar para diagnosticar, ni para modificar fármacos o dietas médicas.
-- El almacenamiento local cifrado NO garantiza por sí solo el cumplimiento de RGPD. Antes de utilizar datos de pacientes reales es necesario definir base jurídica, información y consentimiento, política de conservación, medidas técnicas y organizativas, copias de seguridad, control de acceso y gestión de los derechos de las personas.
-- Las fotografías médicas y síntomas son datos especialmente sensibles. Hospedar la PWA en infraestructura confiable y no compartir la contraseña.
+PRIVACIDAD
+- Esta versión guarda casos, fotografías y datos personales en el propio navegador, SIN cifrado ni contraseña. No los envía a servidores por defecto.
+- Las copias de seguridad también se guardan sin cifrar. No utilizar datos de pacientes reales sin controles de acceso y protección apropiados.
+- La aplicación es un prototipo formativo, no una herramienta de diagnóstico validada.
 
-TECNOLOGÍA
-HTML, CSS, JavaScript, IndexedDB y Web Crypto. Requiere HTTPS (o localhost), almacenamiento habilitado y un navegador actual. El servicio sin conexión depende de que el service worker haya logrado instalarse tras la primera carga.
+ACTUALIZACIÓN
+- Se mantiene la estructura de archivo local anterior; los datos existentes de versiones recientes suelen conservarse si se abre en el mismo origen de navegador. Conserva la versión previa y una copia de seguridad antes de sustituirla.
+- Para actualizar un despliegue en GitHub Pages, sustituye todos los archivos y verifica que la caché se haya actualizado.

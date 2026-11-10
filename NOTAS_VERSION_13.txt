@@ -1,0 +1,5 @@
+v0.13
+- Eliminados los tres textos solicitados de Morfología y listas.
+- Análisis experimental local de foto de cuerpo entero sobre fondo uniforme, estimación de relaciones de anchura.
+- Revisión y confirmación manual para trasladar la observación al cuestionario morfológico.
+- Sin clasificación automática por rasgos faciales ni diagnóstico.

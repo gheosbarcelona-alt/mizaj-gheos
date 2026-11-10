@@ -1,0 +1,6 @@
+BIOTIPOLOGÍAS GHEOS v0.6 - acceso directo sin contraseña.
+
+Los casos se almacenan SIN CIFRAR en IndexedDB local. No usar en dispositivos compartidos ni con información clínica identificable sin protecciones adicionales.
+El archivo cifrado antiguo permanece intacto bajo la clave encrypted en IndexedDB mizaj-gheos-v04; se puede migrar mediante «Recuperar casos anteriores» con la contraseña antigua.
+Se pueden importar respaldos JSON cifrados anteriores o sin cifrar nuevos. La exportación nueva genera JSON SIN CIFRAR.
+No sustituir la versión publicada sin una copia de seguridad verificada.
