@@ -1,6 +1,6 @@
 {
-  "name": "Biotipologías Gheos",
-  "short_name": "Biotipologías",
+  "name": "Test Biotipologías Gheos",
+  "short_name": "Test Biotipos",
   "description": "Clasificación tradicional de biotipos y pautas alimentarias con fichas guardadas localmente",
   "lang": "es",
   "start_url": "./index.html",
